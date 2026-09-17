@@ -209,15 +209,15 @@ const Component = React.forwardRef<HTMLDivElement, MouseSparklesProps>(
   },
 );
 
-export function rand(min: number, max: number) {
+function rand(min: number, max: number) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-export function selectRandom<T>(items: T[]): T {
+function selectRandom<T>(items: T[]): T {
   return items[rand(0, items.length - 1)];
 }
 
-export function calcDistance(a: Point, b: Point) {
+function calcDistance(a: Point, b: Point) {
   const diffX = b.x - a.x;
   const diffY = b.y - a.y;
   return Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
