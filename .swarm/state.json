@@ -1,0 +1,10 @@
+{
+  "id": "swarm-1789598393088-citcbp",
+  "topology": "hierarchical",
+  "maxAgents": 15,
+  "strategy": "development",
+  "v3Mode": false,
+  "permissions": null,
+  "initializedAt": "2026-09-16T22:39:53.088Z",
+  "status": "ready"
+}

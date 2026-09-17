@@ -1,0 +1,23 @@
+{
+  "swarms": {
+    "swarm-1789598393088-citcbp": {
+      "swarmId": "swarm-1789598393088-citcbp",
+      "topology": "hierarchical",
+      "maxAgents": 15,
+      "status": "running",
+      "agents": [],
+      "tasks": [],
+      "config": {
+        "topology": "hierarchical",
+        "maxAgents": 15,
+        "strategy": "specialized",
+        "communicationProtocol": "message-bus",
+        "autoScaling": true,
+        "consensusMechanism": "majority"
+      },
+      "createdAt": "2026-09-16T22:39:53.088Z",
+      "updatedAt": "2026-09-16T22:39:53.088Z"
+    }
+  },
+  "version": "3.0.0"
+}
